@@ -1,0 +1,31 @@
+{
+  "name": "self-made-projects",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "devstart": "nodemon server.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "socket.io",
+    "nodemon",
+    "nodejs",
+    "chat",
+    "self-made-projects",
+    "real-time"
+  ],
+  "author": "dsq2",
+  "license": "ISC",
+  "description": "A project for testing a chat box with real-time messaging features.",
+  "dependencies": {
+    "express": "^4.21.0",
+    "socket.io": "^4.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "engines": {
+    "node": ">=14.x"
+  }
+}
